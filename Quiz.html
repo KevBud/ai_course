@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI School - Final Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <header class="title">
+            <h1>Final Knowledge Test</h1>
+        </header>
+
+        <div class="content-container">
+            <div id="quiz-container" class="module-card">
+                <div id="question-area"></div>
+                <div id="options-area"></div>
+                <div class="quiz-controls">
+                    <button id="next-btn" class="quiz-button" style="display: none;">Next Question</button>
+                    <button id="submit-btn" class="quiz-button" style="display: none;">See Results</button>
+                </div>
+            </div>
+
+            <div id="result-area" class="objectives-section" style="display: none;">
+                <h2 id="score-text"></h2>
+                <p id="feedback-text"></p>
+                <a href="index.html" class="back-link">Return to Dashboard</a>
+            </div>
+
+            <div class="navigation-links">
+                <a href="index.html" class="back-link">← Cancel Quiz</a>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

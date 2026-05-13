@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI School - Machine Learning Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <header class="title">
+            <h1>Module 1: Machine Learning Basics</h1>
+        </header>
+
+        <div class="content-container">
+            <p class="intro-text">
+                Machine Learning (ML) is the field of study that gives computers the ability to learn from data without being explicitly programmed. Instead of writing static rules, we provide algorithms with data, and they identify patterns to make decisions or predictions.
+            </p>
+
+            <section class="module-card">
+                <h2>The Machine Learning Process</h2>
+                <p>To build a model, we follow a standard pipeline:</p>
+                <ul>
+                    <li><strong>Data Collection:</strong> Gathering raw information from databases, sensors, or files.</li>
+                    <li><strong>Data Preprocessing:</strong> Cleaning the data (handling missing values, removing noise) and converting it into a numerical format.</li>
+                    <li><strong>Feature Engineering:</strong> Identifying and selecting the most relevant attributes (features) that help the model understand the target outcome.</li>
+                    <li><strong>Training:</strong> Feeding the data into an algorithm to adjust its internal mathematical parameters.</li>
+                    <li><strong>Evaluation:</strong> Testing the model on unseen data to see if it generalizes well, or if it is overfitting or underfitting.</li>
+                </ul>
+            </section>
+
+            <h2>Core Learning Paradigms</h2>
+            
+            <div class="module-card">
+                <h3>1. Supervised Learning</h3>
+                <p>The algorithm learns from labeled data (input + correct answer). The goal is to learn a mapping function.</p>
+                <ul>
+                    <li><strong>Classification:</strong> Predicting a category (e.g., Is this email "Spam"?).</li>
+                    <li><strong>Regression:</strong> Predicting a continuous value (e.g., House prices).</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>2. Unsupervised Learning</h3>
+                <p>The algorithm works with unlabeled data to discover hidden patterns on its own.</p>
+                <ul>
+                    <li><strong>Clustering:</strong> Grouping similar data points (e.g., Customer segments).</li>
+                    <li><strong>Dimensionality Reduction:</strong> Simplifying data while preserving core information.</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <h3>3. Reinforcement Learning</h3>
+                <p>An agent learns by performing actions in an environment and receiving rewards or penalties. It learns through trial and error to maximize rewards.</p>
+            </div>
+
+            <h2>Key Concepts to Remember</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Concept</th>
+                        <th>Definition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Features</strong></td>
+                        <td>The individual independent variables used as input in your model.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Model</strong></td>
+                        <td>The mathematical representation (the "brain") that captures the patterns found during training.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Overfitting</strong></td>
+                        <td>When a model learns the training data too well, including noise, and fails on new data.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Generalization</strong></td>
+                        <td>The ability of a model to perform accurately on new, unseen data.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="navigation-links">
+                <a href="intro.html" class="back-link">← Back to The Intro</a>
+                <a href="NNet.html" class="back-link">Next: Neural Networks →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

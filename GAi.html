@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI School - Generative AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <header class="title">
+            <h1>Module 4: Generative AI</h1>
+        </header>
+
+        <div class="content-container">
+            <p class="intro-text">
+                Generative AI represents a paradigm shift in machine learning. While traditional AI is often used to classify data or predict outcomes, Generative AI is designed to create new content—including text, images, audio, video, and code—that mimics the patterns and structures of its training data.
+            </p>
+
+            <section class="module-card">
+                <h2>How Generative Models Work</h2>
+                <p>Generative models learn the underlying probability distribution of a dataset. Instead of just identifying a cat in a photo, a generative model learns how to "paint" a cat by understanding the relationships between pixels, shapes, and textures.</p>
+                
+                <div style="margin-top: 15px;">
+                    <p><strong>1. Large Language Models (LLMs):</strong> Trained on massive datasets to predict the most likely "next token". They develop an internal representation of facts, reasoning, and style.</p>
+                    <p><strong>2. Diffusion Models:</strong> The engines behind image generation. They work by reversing a process of adding "noise" to an image, starting from random static and refining it into a clear image.</p>
+                </div>
+            </section>
+
+            <section class="module-card">
+                <h2>Core Architectures</h2>
+                <ul>
+                    <li><strong>Transformers:</strong> The foundation for LLMs, using the attention mechanism to handle complex data dependencies.</li>
+                    <li><strong>GANs (Generative Adversarial Networks):</strong> A "cat-and-mouse" game where a Generator creates data and a Discriminator tries to spot the fakes.</li>
+                    <li><strong>VAEs (Variational Autoencoders):</strong> Models that compress data into a "latent space" and then learn to decompress it back into new, similar data.</li>
+                </ul>
+            </section>
+
+            <div class="objectives-section">
+                <h2>Capabilities and Applications</h2>
+                <ul>
+                    <li><strong>Text Generation:</strong> Drafting articles, code, and conversational agents.</li>
+                    <li><strong>Visual Synthesis:</strong> Generating photorealistic images and 3D assets.</li>
+                    <li><strong>Multimodal Generation:</strong> Models that can process and generate text, audio, and video simultaneously.</li>
+                </ul>
+            </div>
+
+            <section class="module-card" style="margin-top: 40px;">
+                <h2>Key Considerations & Ethics</h2>
+                <p><strong>Hallucinations:</strong> Since models are probabilistic, they can confidently produce factually incorrect information.</p>
+                <p><strong>Alignment:</strong> The challenge of ensuring AI output aligns with human intent and safety standards.</p>
+                <p><strong>Bias:</strong> Models reflect the biases present in their training data, making ethical data curation critical.</p>
+            </section>
+
+            <div class="navigation-links">
+                <a href="NLan.html" class="back-link">← Previous: NLP</a>
+                <a href="RLearn.html" class="back-link">Next: Reinforcement Learning →</a>
+            </div>
+
+            <p style="text-align: center; margin-top: 30px;">
+                <a href="index.html" style="color: #38bdf8; text-decoration: none; font-weight: bold;">Back to Dashboard</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

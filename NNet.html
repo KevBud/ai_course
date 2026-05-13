@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI School - Neural Networks & Deep Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <header class="title">
+            <h1>Module 2: Neural Networks & Deep Learning</h1>
+        </header>
+
+        <div class="content-container">
+            <p class="intro-text">
+                Neural Networks are a subset of Machine Learning inspired by the biological structure of the human brain. While traditional algorithms often rely on manual feature engineering, Neural Networks excel at learning hierarchical representations directly from raw data.
+            </p>
+
+            <section class="module-card">
+                <h2>The Fundamental Building Block: The Perceptron</h2>
+                <p>At its core, a neural network is composed of many artificial neurons (or nodes) called <strong>perceptrons</strong>. Each perceptron takes multiple inputs, multiplies them by weights ($w$), adds a bias ($b$), and passes the result through an activation function to determine the output[cite: 5].</p>
+                
+            </section>
+
+            <section class="module-card">
+                <h2>Network Architecture</h2>
+                <p>A Neural Network is organized into layers[cite: 5, 6]:</p>
+                <ul>
+                    <li><strong>Input Layer:</strong> Receives the raw data (e.g., pixels of an image)[cite: 5, 6].</li>
+                    <li><strong>Hidden Layers:</strong> Intermediate layers where the actual "learning" happens. Deep Learning refers to networks with many hidden layers[cite: 5, 6].</li>
+                    <li><strong>Output Layer:</strong> Produces the final prediction or decision[cite: 5, 6].</li>
+                </ul>
+                
+            </section>
+
+            <section class="module-card">
+                <h2>How the Network Learns</h2>
+                <p>Learning is an iterative process that relies on two primary mechanisms[cite: 5, 6]:</p>
+                <ul>
+                    <li><strong>Forward Propagation:</strong> Data passes through the network, layer by layer, to generate an output which is compared to the actual target (the "ground truth")[cite: 5, 6].</li>
+                    <li><strong>Loss Function:</strong> A mathematical calculation of the error—the difference between the model's prediction and the actual value[cite: 5, 6].</li>
+                    <li><strong>Backpropagation & Optimization:</strong> The network works backward to calculate how much each weight contributed to the error. An optimizer (like Gradient Descent) then adjusts the weights to minimize that error[cite: 5, 6].</li>
+                </ul>
+            </section>
+
+            <h2>Key Components for Success</h2>
+            <div class="module-card">
+                <ul>
+                    <li><strong>Activation Functions:</strong> Functions like ReLU, Sigmoid, or Softmax that introduce "non-linearity," allowing the network to learn complex patterns[cite: 5, 6].</li>
+                    <li><strong>Weights and Biases:</strong> The parameters the network adjusts during training to improve accuracy[cite: 5, 6].</li>
+                    <li><strong>Deep Learning:</strong> Using networks with many layers to solve complex tasks like object detection and speech recognition[cite: 5, 6].</li>
+                </ul>
+            </div>
+
+            <h2>Why use Neural Networks?</h2>
+            <div class="module-card" style="border-left-color: #38bdf8;">
+                <ul>
+                    <li><strong>High-Dimensional Data:</strong> Effective at handling thousands of input features simultaneously[cite: 5, 6].</li>
+                    <li><strong>Feature Discovery:</strong> Automatically discovering patterns that humans might not even be able to define[cite: 5, 6].</li>
+                    <li><strong>Scalability:</strong> Performance typically continues to improve as you add more data and more layers[cite: 5, 6].</li>
+                </ul>
+            </div>
+
+            <div class="navigation-links">
+                <a href="MLearn.html" class="back-link">← Previous: Machine Learning</a>
+                <a href="NLan.html" class="back-link">Next: NLP →</a>
+            </div>
+            
+            <p style="text-align: center; margin-top: 20px;">
+                <a href="index.html" style="color: #38bdf8; text-decoration: none;">Back to Dashboard</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

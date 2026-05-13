@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI School - Reinforcement Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <header class="title">
+            <h1>Module 5: Reinforcement Learning (RL)</h1>
+        </header>
+
+        <div class="content-container">
+            <p class="intro-text">
+                Reinforcement Learning (RL) is a distinct paradigm where an agent learns to make a sequence of decisions by interacting with an environment. Unlike Supervised Learning, which relies on a labeled "answer key," RL relies on feedback in the form of rewards or penalties. It is the computational approach to learning through trial and error.
+            </p>
+
+            <section class="module-card">
+                <h2>The Reinforcement Learning Loop</h2>
+                <p>At the heart of every RL system is the interaction between an <strong>Agent</strong> and its <strong>Environment</strong>:</p>
+                <ul>
+                    <li><strong>State ($S$):</strong> The current situation or configuration of the environment.</li>
+                    <li><strong>Action ($A$):</strong> The move the agent decides to take.</li>
+                    <li><strong>Reward ($R$):</strong> The feedback signal—positive for success, negative for failure.</li>
+                    <li><strong>Policy ($\pi$):</strong> The strategy or "rulebook" the agent follows to decide which action to take.</li>
+                </ul>
+            </section>
+
+            <section class="module-card">
+                <h2>How the Agent Learns</h2>
+                <p>The goal is to maximize the <strong>Cumulative Reward</strong>. This creates the "Exploration vs. Exploitation" trade-off:</p>
+                <div style="margin-top: 10px;">
+                    <p><strong>Exploration:</strong> Trying new, unfamiliar actions to discover potential rewards.</p>
+                    <p><strong>Exploitation:</strong> Choosing the best-known actions to maximize current rewards.</p>
+                </div>
+            </section>
+
+            <div class="objectives-section">
+                <h2>Key Concepts & Architectures</h2>
+                <ul>
+                    <li><strong>Markov Decision Process (MDP):</strong> The formal mathematical framework used to describe the RL problem.</li>
+                    <li><strong>Value-Based Methods:</strong> Learning the "value" of a state to create a map of what is good or bad.</li>
+                    <li><strong>Policy-Based Methods:</strong> Mapping states directly to actions.</li>
+                    <li><strong>Deep Reinforcement Learning (DRL):</strong> Using Neural Networks to allow agents to handle complex tasks like playing video games.</li>
+                </ul>
+            </div>
+
+            <section class="module-card" style="margin-top: 40px;">
+                <h2>Real-World Applications</h2>
+                <p><strong>Robotics:</strong> Learning to walk or manipulate objects in complex terrains.</p>
+                <p><strong>Game Playing:</strong> Reaching superhuman performance in games like Chess, Go, or StarCraft.</p>
+                <p><strong>Resource Management:</strong> Optimizing data center cooling or power grid distribution.</p>
+                <p><strong>Finance:</strong> Automating high-frequency trading strategies in fluctuating markets.</p>
+            </section>
+
+            <div class="navigation-links">
+                <a href="GAi.html" class="back-link">← Previous: Generative AI</a>
+                <a href="Quiz.html" class="back-link">Finish Course: Back to Dashboard</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
